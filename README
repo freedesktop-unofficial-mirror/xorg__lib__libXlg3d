@@ -1,0 +1,10 @@
+		Xlg3d
+	  Project Looking Glass Extension
+	    Version 5.0
+	      2006-3-10
+
+This package contains header files and documentation for the Project
+Looking Glass Extension. Library and server implementations are separate.
+
+Deron Johnson
+deron.johnson@sun.com

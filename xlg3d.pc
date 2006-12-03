@@ -1,0 +1,12 @@
+prefix=/homelocal/djlocal/xorg/gitlg/modular
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xlg3d
+Description: Projection Looking X Library
+Version: 5.0
+Requires: xproto lg3dproto >= 5.0 xfixes
+Requires.private: x11 xfixes xext
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXlg3d
