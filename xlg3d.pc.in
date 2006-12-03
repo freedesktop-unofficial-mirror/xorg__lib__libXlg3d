@@ -4,7 +4,7 @@ libdir=@libdir@
 includedir=@includedir@
 
 Name: Xlg3d
-Description: Projection Looking X Library
+Description: Project Looking Glass X Library
 Version: @PACKAGE_VERSION@
 Requires: xproto lg3dproto >= @LGEXT_VERSION@ xfixes
 Requires.private: x11 xfixes xext
